@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Web</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="bodyu">
+    <header class="main-header">
+      <div class="img"><img src="img/logo.png" alt="Storage Road" /></div>
+      <div>
+        <p>PT. Storage Ship</p>
+      </div>
+      <!-- Navigasi -->
+      <nav>
+        <a href="#section-home">Home</a>
+        <a href="#section-profile">Profile</a>
+        <a href="#section-portofolio">Portofolio</a>
+        <a href="#section-Message">Message Us</a>
+      </nav>
+    </header>
+    <hr />
+    <!-- ISI KONTEN -->
+    <main>
+      <section id="section-home">
+        <header>
+          <h1>Hello  <span id="inputname">. . . . .</span>, Welcome to My Website</h1>
+        </header>
+
+        <article>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            autem. Quae quod at modi facere harum dolore molestias porro,
+            distinctio, doloribus explicabo dicta ab cumque, ratione quam natus
+            rem exercitationem? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. A, eum. Aliquam magni animi porro error
+            accusantium temporibus quidem itaque magnam quas quos minima vero
+            assumenda exercitationem, cum culpa voluptatibus cupiditate? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis
+            cupiditate dicta earum eum dolore similique delectus aliquid
+            expedita ducimus voluptatibus provident natus neque eligendi magni
+            recusandae tempore, obcaecati quae! Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Tenetur libero iure consequatur?
+            Corrupti soluta explicabo qui at, optio voluptatibus iure sequi unde
+            ratione quasi quos eos, nostrum id, magnam sed!
+          </p>
+
+          <div class="photo-banner photo-1"></div>
+          <div class="photo-banner photo-2"></div>
+          <div class="photo-banner photo-3"></div>
+        </article>
+        <button type="button" onclick="moveslide(-1)">Prev</button>
+        <button type="button" onclick="moveslide(1)">Next</button>
+      </section>
+      <hr />
+      <section id="section-profile">
+        <header><h1>Our Profile</h1></header>
+        <article>
+          <p>
+            Perusahaan kami bergerak di bidang pengiriman cargo dari dan ke Luar Negeri. Perusahaan kami berdiri sejak 2015. Kami berupaya untuk terus mengembangkan bisnis ini. Perusahaan pengiriman cargo merupakan komponen penting dalam sistem logistik global, berperan sebagai penghubung antara produsen dan konsumen di seluruh dunia. Dengan terus berinovasi dan beradaptasi dengan tantangan yang ada, perusahaan-perusahaan ini akan terus mendukung pertumbuhan ekonomi dan memenuhi kebutuhan pasar yang semakin kompleks. Ke depan, keberlanjutan dan teknologi akan menjadi fokus utama dalam industri ini, menciptakan layanan yang lebih efisien dan ramah lingkungan. Perusahaan pengiriman cargo bertanggung jawab untuk mengangkut barang dari satu lokasi ke lokasi lain, baik itu dalam skala domestik maupun internasional. Mereka membantu menghubungkan produsen dengan konsumen, mempercepat proses distribusi, dan mendukung pertumbuhan ekonomi. Beberapa peran utama mereka meliputi:
+            <ul>
+              <li>Logistik dan Manajemen Rantai Pason</li>
+              <li>Transportasi Multimoda</li>
+              <li>Pelacakan dan Keamanan</li>
+            </ul>
+          </p>
+        </article>
+      </section>
+      <hr />
+      <section id="section-portofolio">
+        <header><h1>Our Portofolio</h1></header>
+        <article>
+          <pre>
+                <h4>Visi dan Misi</h4>
+                Visi: Menjadi perusahaan pengiriman cargo terkemuka yang menyediakan solusi logistik yang inovatif dan efisien.
+                Misi: Memberikan layanan pengiriman yang handal, cepat, dan aman untuk mendukung pertumbuhan bisnis pelanggan kami di seluruh dunia.
+
+                <h4>Layanan yang Diberikan</h4>
+                Pengiriman Laut: Menawarkan layanan kargo laut internasional dengan armada kapal kontainer modern.
+                Pengiriman Udara: Solusi pengiriman cepat untuk barang yang memerlukan transportasi udara.
+                Pengiriman Darat: Layanan transportasi darat untuk distribusi lokal dan regional.
+                Layanan Kargo Khusus: Penanganan barang berharga, bahan berbahaya, dan barang mudah rusak dengan prosedur khusus.
+                
+                <h4>Keunggulan Kompetitif</h4>
+                Teknologi Terkini: Penggunaan sistem pelacakan real-time dan manajemen rantai pasok yang efisien.
+                Jaringan Global: Kemitraan dengan agen dan penyedia layanan di seluruh dunia untuk menjamin pengiriman tepat waktu.
+                Tim Profesional: Staf yang terlatih dan berpengalaman dalam logistik dan pengiriman cargo.
+                Pelayanan Pelanggan: Dukungan 24/7 untuk menjawab pertanyaan dan mengatasi masalah pelanggan.
+
+                <h4>Proyek Terkemuka</h4>
+                Proyek A: Pengiriman barang elektronik dari Negara A ke Negara C dengan waktu pengiriman 3 hari.
+                Proyek B: Pengiriman bahan baku untuk industri makanan dari Kota A ke Kota B, memenuhi standar keamanan pangan.
+                Proyek C: Layanan logistik untuk acara besar, termasuk pengiriman peralatan dan perlengkapan dari Provinsi A ke Provinsi B.
+
+                <h4>Komitmen Terhadap Keberlanjutan</h4>
+                Mengimplementasikan praktik ramah lingkungan dalam operasi kami, termasuk penggunaan kendaraan listrik dan pengurangan limbah.
+          </pre>
+        </article>
+      </section>
+      <hr />
+      <section id="section-Message">
+        <header><h1>Message Us</h1></header>
+        <div class="message-container">
+          <form name="message-form" onsubmit="return validateForm()">
+            <div>
+              <p>
+                 <label for="inputnnama">Nama : </label>
+                 <!-- ditambahkan pada tag input "required" menjadikan form harus di isi -->
+                 <input id="inputnnama" type="text" placeholder="Nama Lengkap"/>
+              </p>
+              <P>
+                <label for="ttl">Tanggal Lahir : </label>
+                <input type="date" id="input_ttl">
+              </P>
+              <P>
+                <input type="radio" id="jk" name="gender" value="laki-laki">
+                <label for="putra">Laki-laki</label>
+                <input type="radio" id="jk" name="gender" value="perempuan">
+                <label for="putri">Perempuan</label>
+              </P>
+              <P>
+                <textarea placeholder="tulis pesan" name="messages" id="pesan"></textarea>
+              </P>
+            </div>
+
+            <button type="button" onclick="validateForm()">Submit</button>
+          </form>
+
+          <div>
+            <!-- span bisa dielipin -->
+            <p>Nama : <span id="nama"></span></p>
+            <p>Tanggal Lahir : <span id="s_ttl"></span></p>
+            <p>Jenis Kelamin : <span id="s_jk"></span></p>
+            <p>Pesan : <span id="s_pesan"></span></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <div>Made by Razr</div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

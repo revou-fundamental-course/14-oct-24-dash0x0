@@ -1,0 +1,68 @@
+.bodyu {
+  background-color: rgb(240, 252, 250);
+}
+
+img {
+  width: 75px;
+  justify-content: left;
+}
+
+.article {
+  height: 300px;
+}
+
+footer > div {
+  text-align: center;
+  font-family: cursive;
+  font-size: small;
+}
+
+.message-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#result {
+  margin: 0px;
+}
+
+nav {
+  display:flex;
+  justify-content: right;
+}
+
+nav > a {
+  border: 1px solid;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.photo-banner {
+  height: 400px;
+  background-size: cover;
+  background-position: top;
+}
+
+.photo-1 {
+  background-image: url(https://picsum.photos/1001);
+  width: 100%;
+}
+
+.photo-2 {
+  background-image: url(https://picsum.photos/1002);
+  width: 100%;
+}
+
+.photo-3 {
+  background-image: url(https://picsum.photos/1003);
+  width: 100%;
+}
+
+/* untuk responsive display, dikhususkan utk main header */
+@media only screen and (max-width : 480px) {
+  .main-header {
+    flex-direction:column ;
+  }
+}
